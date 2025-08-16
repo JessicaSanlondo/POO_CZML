@@ -5,7 +5,7 @@
     "version": "1.0",
     "clock": {
       "interval": "2025-08-01T00:00:00Z/2025-08-29T23:59:59Z",
-      "currentTime": "2025-08-01T01:00:00Z",
+      "currentTime": "2025-08-17T01:00:00Z",
       "multiplier": 90000
     }
   },
@@ -21,11 +21,63 @@
       "height": 0,
       "heightReference": "RELATIVE_TO_GROUND",
       "extrudedHeight": [
-        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 1000 },
-        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 2000 },
-        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 3000 },
-        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 4000},
-        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 5000 }
+        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 100 },
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 1500 },
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 11500 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 13700 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 14900 }
+      ],
+      "extrudedHeightReference": "RELATIVE_TO_GROUND",
+      "material": {
+        "solidColor": {
+          "color": { "rgba": [255, 0, 0, 100] }
+        }
+      }
+    }
+  },
+  {
+    "id": "shape1",
+    "name": "Bogota",
+    "position": {
+      "cartographicDegrees": [-74.096, 4.629, 0]
+    },
+    "ellipse": {
+      "semiMinorAxis": 100000,
+      "semiMajorAxis": 100000,
+      "height": 0,
+      "heightReference": "RELATIVE_TO_GROUND",
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 200 },
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 1500 },
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 11500 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 13700 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 14900 }
+      ],
+      "extrudedHeightReference": "RELATIVE_TO_GROUND",
+      "material": {
+        "solidColor": {
+          "color": { "rgba": [255, 0, 0, 100] }
+        }
+      }
+    }
+  },
+  {
+    "id": "shape1",
+    "name": "Bogota",
+    "position": {
+      "cartographicDegrees": [-74.096, 4.629, 0]
+    },
+    "ellipse": {
+      "semiMinorAxis": 100000,
+      "semiMajorAxis": 100000,
+      "height": 0,
+      "heightReference": "RELATIVE_TO_GROUND",
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 100 },
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 1500 },
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 11500 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 13700 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 14900 }
       ],
       "extrudedHeightReference": "RELATIVE_TO_GROUND",
       "material": {
@@ -36,84 +88,4 @@
     }
   }
 
-  {
-    "id": "shape1",
-    "name": "Medellin",
-    "position": {
-      "cartographicDegrees": [-75.56485850868968, 6.269142867108017, 0]
-    },
-    "ellipse": {
-      "semiMinorAxis": 100000,
-      "semiMajorAxis": 100000,
-      "height": 0,
-      "heightReference": "RELATIVE_TO_GROUND",
-      "extrudedHeight": [
-        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 2000 },
-        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 4000 },
-        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 6000 },
-        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 8000 },
-        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 10000 }
-      ],
-      "extrudedHeightReference": "RELATIVE_TO_GROUND",
-      "material": {
-        "solidColor": {
-          "color": { "rgba": [255, 0, 0, 100] }
-        }
-      }
-    }
-  }
-
-  {
-    "id": "shape1",
-    "name": "Cali",
-    "position": {
-      "cartographicDegrees": [-76.54319477327415, 3.4515188403162984, 0]
-    },
-    "ellipse": {
-      "semiMinorAxis": 100000,
-      "semiMajorAxis": 100000,
-      "height": 0,
-      "heightReference": "RELATIVE_TO_GROUND",
-      "extrudedHeight": [
-        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 1500 },
-        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 3000 },
-        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 4500 },
-        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 6000 },
-        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 7500 }
-      ],
-      "extrudedHeightReference": "RELATIVE_TO_GROUND",
-      "material": {
-        "solidColor": {
-          "color": { "rgba": [255, 0, 0, 100] }
-        }
-      }
-    }
-  }
-
-  {
-    "id": "shape1",
-    "name": "Barranquilla",
-    "position": {
-      "cartographicDegrees": [-74.8305072687169, 11.036996232483693, 0]
-    },
-    "ellipse": {
-      "semiMinorAxis": 100000,
-      "semiMajorAxis": 100000,
-      "height": 0,
-      "heightReference": "RELATIVE_TO_GROUND",
-      "extrudedHeight": [
-        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 1800 },
-        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 3600 },
-        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 5400 },
-        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 7200 },
-        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 9000 }
-      ],
-      "extrudedHeightReference": "RELATIVE_TO_GROUND",
-      "material": {
-        "solidColor": {
-          "color": { "rgba": [255, 0, 0, 100] }
-        }
-      }
-    }
-  }
 ]
