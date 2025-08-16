@@ -6,7 +6,7 @@
     "clock": {
       "interval": "2025-08-01T00:00:00Z/2025-08-29T23:59:59Z",
       "currentTime": "2025-08-17T01:00:00Z",
-      "multiplier": 90000
+      "multiplier": 510000
     }
   },
   {
@@ -16,8 +16,8 @@
       "cartographicDegrees": [-74.096, 4.629, 0]
     },
     "ellipse": {
-      "semiMinorAxis": 50000,
-      "semiMajorAxis": 50000,
+      "semiMinorAxis": 20000,
+      "semiMajorAxis": 20000,
       "height": 0,
       "heightReference": "RELATIVE_TO_GROUND",
       "extrudedHeight": [
